@@ -1,4 +1,0 @@
-# vsim -do {run -all; quit} -c msim_codex_work.tb_gray_sram_sobel_matrix 
-# ** Error: (vsim-3170) Could not find 'D:/COURSE/SOC/project/doan_soc_nios_fixed/msim_codex_work.tb_gray_sram_sobel_matrix'.
-# 
-# Error loading design
