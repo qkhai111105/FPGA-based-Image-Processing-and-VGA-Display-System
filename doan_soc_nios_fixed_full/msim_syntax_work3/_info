@@ -1,0 +1,23 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\COURSE\SOC\project\doan_soc\doan_soc
+varbiter
+!s100 39Ml2mfFO::XXM3;Il83C1
+IBJ4;cjRF=7T:65J_Bn?jc2
+VCGaXUHG6l7V9dkXd7]ld`2
+Z1 dD:\COURSE\SOC\project\doan_soc\doan_soc
+w1780041812
+8arbiter.v
+Farbiter.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1780041820.777000
+!s107 vga.v|sobel_top.v|sobel_edge.v|arbiter.v|
+!s90 -lint|-nodbgsym|-work|msim_syntax_work3|arbiter.v|sobel_edge.v|sobel_top.v|vga.v|
+!s101 -O0
+o-lint -work msim_syntax_work3 -O0

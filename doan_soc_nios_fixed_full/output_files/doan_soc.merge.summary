@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Fri May 29 12:11:57 2026
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : doan_soc
+Top-level Entity Name : doan_soc
+Family : Cyclone II
+Total logic elements : 12,182
+    Total combinational functions : 6,318
+    Dedicated logic registers : 7,073
+Total registers : 7073
+Total pins : 76
+Total virtual pins : 0
+Total memory bits : 314,368
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

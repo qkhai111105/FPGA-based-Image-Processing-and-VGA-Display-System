@@ -1,0 +1,23 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\COURSE\SOC\project\doan_soc_nios_fixed
+vrgb565_to_gray
+!s100 l46>A:b6fhm8<XHKfe]CJ0
+IfTU[@gHR_ToJWQHhXNVGi1
+VFYEQdoY>5K?M73_gF1]Gg1
+Z1 dD:\COURSE\SOC\project\doan_soc_nios_fixed
+w1779882708
+8rgb565_to_gray.v
+Frgb565_to_gray.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1780199474.145000
+!s107 tb_gray_sram_sobel_matrix.v|sobel_edge.v|rgb565_to_gray.v|
+!s90 -work|msim_codex_work|rgb565_to_gray.v|sobel_edge.v|tb_gray_sram_sobel_matrix.v|
+!s101 -O0
+o-work msim_codex_work -O0

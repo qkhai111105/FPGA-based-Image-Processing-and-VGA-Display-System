@@ -1,0 +1,99 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\COURSE\SOC\project\doan_soc_nios_fixed
+varbiter
+!s100 _@R8<TN>kCO48`9cON8WF0
+Ifc3fem_N=5JM;80Dnf7KW2
+V2WV9SeMN1Q9Lg2n4D5nl73
+Z1 dD:\COURSE\SOC\project\doan_soc_nios_fixed
+w1780199676
+8arbiter.v
+Farbiter.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1780199716.716000
+!s107 vga.v|top.v|arbiter.v|
+!s90 -lint|-nodbgsym|arbiter.v|top.v|vga.v|
+!s101 -O0
+o-lint -O0
+vrgb565_to_gray
+Z3 !s100 l46>A:b6fhm8<XHKfe]CJ0
+Z4 IOFP4HMn1:O]C2W0VUaWgd0
+Z5 VFYEQdoY>5K?M73_gF1]Gg1
+R1
+Z6 w1779882708
+Z7 8rgb565_to_gray.v
+Z8 Frgb565_to_gray.v
+L0 1
+R2
+r1
+31
+Z9 !s108 1780133305.755000
+Z10 !s107 tb_gray_sram_sobel_matrix.v|sobel_edge.v|rgb565_to_gray.v|
+Z11 !s90 -reportprogress|300|rgb565_to_gray.v|sobel_edge.v|tb_gray_sram_sobel_matrix.v|
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vsobel_edge
+Z12 !s100 KJjMEEd54b@4oO[Fj9RJ91
+Z13 IIeAFbCVBBQNJI7f^HU5F41
+Z14 VMI9Qk6?UD0Mb5R]4V>UYC1
+R1
+Z15 w1780133233
+Z16 8sobel_edge.v
+Z17 Fsobel_edge.v
+L0 1
+R2
+r1
+31
+R9
+R10
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_gray_sram_sobel_matrix
+Z18 IFE5K<4AN`i6iBb>J<P3Z<1
+Z19 VFS5hC`_EY@]R2;4z4cXoW2
+R1
+Z20 w1780133099
+Z21 8tb_gray_sram_sobel_matrix.v
+Z22 Ftb_gray_sram_sobel_matrix.v
+L0 3
+R2
+r1
+31
+R9
+R10
+R11
+o-O0
+!i10b 1
+Z23 !s100 _SSNaPHehc3Sh74RDPYLB3
+!s85 0
+!s101 -O0
+vtb_sobel_edge
+Z24 !s100 ULZ:4:bL]mf[Km2Kb6i9_2
+Z25 I>mVKBF3ROjN7Bko8QSQ;e0
+Z26 Vk4eLfBI;DKPdf0SlJZ^EC1
+R1
+Z27 w1780132055
+Z28 8tb_sobel_edge.v
+Z29 Ftb_sobel_edge.v
+L0 3
+R2
+r1
+31
+Z30 !s108 1780133274.978000
+Z31 !s107 tb_sobel_edge.v|sobel_edge.v|
+Z32 !s90 -reportprogress|300|sobel_edge.v|tb_sobel_edge.v|
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0

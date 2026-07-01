@@ -1,0 +1,23 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\COURSE\SOC\project\doan_soc\doan_soc
+vrgb565_to_gray
+!s100 l46>A:b6fhm8<XHKfe]CJ0
+Ii:3AKbJ_4REBWHi4dDlk40
+VFYEQdoY>5K?M73_gF1]Gg1
+Z1 dD:\COURSE\SOC\project\doan_soc\doan_soc
+w1779882708
+8rgb565_to_gray.v
+Frgb565_to_gray.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1780040709.856000
+!s107 top.v|vga.v|vga_sync_gen.v|vga_color_map.v|sram_controller.v|arbiter.v|sobel_top.v|sobel_edge.v|rgb565_to_gray.v|
+!s90 -work|msim_syntax_work|rgb565_to_gray.v|sobel_edge.v|sobel_top.v|arbiter.v|sram_controller.v|vga_color_map.v|vga_sync_gen.v|vga.v|top.v|
+!s101 -O0
+o-work msim_syntax_work -O0

@@ -1,0 +1,14 @@
+Info (10281): Verilog HDL Declaration information at system_id_router_003.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at system_id_router_003.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at system_id_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at system_id_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at system_addr_router_001.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at system_addr_router_001.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at system_addr_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at system_addr_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at top.v(15): object "SRAM_ADDR" differs only in case from object "sram_addr" in the same scope
+Info (10281): Verilog HDL Declaration information at top.v(15): object "SRAM_ADDR" differs only in case from object "sram_addr" in the same scope
+Info (10281): Verilog HDL Declaration information at arbiter.v(117): object "uart_addr_ptr" differs only in case from object "UART_ADDR_PTR" in the same scope
+Info (10281): Verilog HDL Declaration information at arbiter.v(118): object "vga_addr_ptr" differs only in case from object "VGA_ADDR_PTR" in the same scope
+Info (10281): Verilog HDL Declaration information at arbiter.v(120): object "edge_detect_write_addr_ptr" differs only in case from object "EDGE_DETECT_WRITE_ADDR_PTR" in the same scope
+Info (10281): Verilog HDL Declaration information at arbiter.v(121): object "edge_detect_read_addr_ptr" differs only in case from object "EDGE_DETECT_READ_ADDR_PTR" in the same scope

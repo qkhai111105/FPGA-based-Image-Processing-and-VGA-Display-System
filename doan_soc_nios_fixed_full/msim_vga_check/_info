@@ -1,0 +1,23 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\COURSE\SOC\project\doan_soc\doan_soc
+vvga_color_map
+!s100 S?V4>Z74?@8T5h3IJ>B^[3
+I4;WHU8D4lEZhOedcjHM?<0
+V31^Q9S@ODdgXLf9fIn0lL1
+Z1 dD:\COURSE\SOC\project\doan_soc\doan_soc
+w1778859236
+8vga_color_map.v
+Fvga_color_map.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1780043270.012000
+!s107 vga.v|vga_sync_gen.v|vga_color_map.v|
+!s90 -lint|-work|msim_vga_check|vga_color_map.v|vga_sync_gen.v|vga.v|
+!s101 -O0
+o-lint -work msim_vga_check -O0

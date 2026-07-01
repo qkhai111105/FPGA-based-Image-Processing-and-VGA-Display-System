@@ -1,0 +1,39 @@
+
+State Machine - |doan_soc|system:u_system|top:custom_logic_0|arbiter:u_arbiter|state
+Name state.ST_EDGE_WAIT_CMD_CLEAR state.ST_EDGE_WR_SEQ state.ST_EDGE_WR_REQ state.ST_EDGE_DRAIN state.ST_EDGE_FLUSH state.ST_EDGE_RD_ACK state.ST_EDGE_RD_WAIT state.ST_EDGE_RD_REQ state.ST_VGA_RD_ACK state.ST_VGA_RD_WAIT state.ST_VGA_RD_REQ state.ST_UART_WR state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.ST_UART_WR 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.ST_VGA_RD_REQ 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.ST_VGA_RD_WAIT 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.ST_VGA_RD_ACK 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.ST_EDGE_RD_REQ 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.ST_EDGE_RD_WAIT 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.ST_EDGE_RD_ACK 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.ST_EDGE_FLUSH 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.ST_EDGE_DRAIN 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.ST_EDGE_WR_REQ 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.ST_EDGE_WR_SEQ 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.ST_EDGE_WAIT_CMD_CLEAR 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |doan_soc|system:u_system|top:custom_logic_0|uart_core:u_uart_core|uart_rx:rx_inst|state
+Name state.STOP state.DATA state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.DATA 0 1 0 1 
+state.STOP 1 0 0 1 
+
+State Machine - |doan_soc|system:u_system|top:custom_logic_0|uart_core:u_uart_core|uart_tx:tx_inst|state
+Name state.STOP state.DATA state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.DATA 0 1 0 1 
+state.STOP 1 0 0 1 
+
+State Machine - |doan_soc|system:u_system|system_nios2_qsys_0:nios2_qsys_0|system_nios2_qsys_0_nios2_oci:the_system_nios2_qsys_0_nios2_oci|system_nios2_qsys_0_jtag_debug_module_wrapper:the_system_nios2_qsys_0_jtag_debug_module_wrapper|system_nios2_qsys_0_jtag_debug_module_tck:the_system_nios2_qsys_0_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
